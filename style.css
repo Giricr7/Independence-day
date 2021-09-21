@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   background: linear-gradient(#FF9933, #138808)
+}
+
+h1{
+    background-color: white;
+    padding: 5%;
+    color: navy;
+    animation-duration: 2s;
+    animation-name: slidein;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 500%;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+  }
