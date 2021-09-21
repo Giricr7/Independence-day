@@ -1,4 +1,4 @@
-(setTimeout(()=>
+setTimeout(()=>
 {
 timer.innerHTML=secs;
 setTimeout(()=>{
@@ -47,7 +47,7 @@ setTimeout(()=>{
 
 },1000)
 
-)
+
 
 
 
